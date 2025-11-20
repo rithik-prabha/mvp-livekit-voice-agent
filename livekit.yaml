@@ -1,0 +1,7 @@
+name: mvp-llama3-rag-agent
+entrypoint: python src/agent.py
+resources:
+  cpu: 4
+  memory: 8Gi
+environment:
+  - AWS_DEFAULT_REGION=ap-south-1
